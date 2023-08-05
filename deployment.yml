@@ -36,8 +36,8 @@ metadata:
     app: amazon-app
 spec:
   type: LoadBalancer
-  ports: 80
-  - port: 80
+  ports: 84
+  - port: 43
     targetPort: 3000
   selector:
     app: amazon-app
