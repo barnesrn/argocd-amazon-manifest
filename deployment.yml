@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: barnesrn/amazon:3
+        image: barnesrn/amazon:4
         ports:
         - containerPort: 3000     
         
